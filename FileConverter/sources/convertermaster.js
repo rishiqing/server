@@ -32,6 +32,9 @@
 
 'use strict';
 
+process.env.NODE_ENV = 'development-windows';
+process.env.NODE_CONFIG_DIR = 'D:\\projects\\DocumentServer\\server\\Common\\config';
+
 const cluster = require('cluster');
 const logger = require('./../../Common/sources/logger');
 

@@ -32,7 +32,7 @@
 		"externalHost": ""
 	},
 	"rabbitmq": {
-		"url": "amqp://guest:guest@localhost:5672",
+		"url": "amqp://guest:guest@192.168.0.134:5672",
 		"socketOptions": {},
 		"exchangepubsub": "ds.pubsub",
 		"queueconverttask": "ds.converttask",
@@ -80,7 +80,7 @@
 				"type": "postgres",
 				"tableChanges": "doc_changes",
 				"tableResult": "task_result",
-				"dbHost": "localhost",
+				"dbHost": "192.168.0.134",
 				"dbPort": 5432,
 				"dbName": "onlyoffice",
 				"dbUser": "onlyoffice",
@@ -92,7 +92,7 @@
 			"redis": {
 				"name": "redis",
 				"prefix": "ds:",
-				"host": "localhost",
+				"host": "192.168.0.134",
 				"port": 6379
 			},
 			"pubsub": {
